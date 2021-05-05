@@ -38,7 +38,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Click here!]()
+- Solution URL: [Click here!](https://www.frontendmentor.io/solutions/single-price-grid-component-flexbox-8h73anjQG)
 - Live Site URL: [Click here!](https://xenodochial-liskov-88bce5.netlify.app/)
 
 ## My process
@@ -58,4 +58,4 @@ Mobile:
 
 ## Acknowledgments
 
-I appreciate [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for each tip or Recommendation contributed, thanks to that I have improved in each project. 
+I appreciate [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for each tip or recommendation contributed, thanks to that I have improved in each project. 
