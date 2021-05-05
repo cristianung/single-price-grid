@@ -55,3 +55,7 @@ Mobile:
 
   **Cristian Unigarro**
 - Frontend Mentor - [@cristianung](https://www.frontendmentor.io/profile/cristianung)
+
+## Acknowledgments
+
+I appreciate [@grace-snow](https://www.frontendmentor.io/profile/grace-snow) for each tip or Recommendation contributed, thanks to that I have improved in each project. 
