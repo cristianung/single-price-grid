@@ -1,0 +1,109 @@
+/*
+    || GRID
+*/
+
+.grid {
+    max-width: 63.5rem;
+    width: 100%;
+    border-radius: .9rem;
+    box-shadow: 0 2.3rem 2.8rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    
+    &__info {
+        background-color: #fff;
+        padding: 4rem 4rem;
+    }
+
+    &__container {
+        flex: 1;
+        display: flex;
+        color: #fff;
+
+        @media only screen and (max-width: $bp-small) {
+            flex-direction: column;
+        }
+
+        &--sub {
+            background-color: var(--color-cyan);
+            flex: 0 0 50%;
+            padding: 4rem 4rem;
+        }
+        
+        &--about {
+            background-color: var(--color-cyan);
+            flex: 1;
+            opacity: .8;
+            padding: 4rem 4rem;
+        }
+    }
+}
+
+/* || Typography */
+
+.heading-primary {
+    color: var(--color-cyan);
+    margin-bottom: 2.5rem;
+} 
+
+.heading-secondary {
+    color: var(--color-bright-yellow);
+    margin-bottom: 1.4rem;
+}
+
+.heading-tertiary {
+    margin-bottom: 2rem;
+}
+
+.paragraph {
+    color: var(--color-grayish-blue);
+    line-height: 2.4rem;
+
+    &-about {
+        color: var(--color-light-gray);
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+.price {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+    span {
+        margin-left: 1rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        opacity: .6;
+        vertical-align: middle;
+    }
+}
+
+.heading-quaternary {
+    font-weight: 400;
+}
+
+/* || Button */
+
+.btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    background-color: var(--color-bright-yellow);
+    border-radius: .5rem;
+    margin-top: 3rem;
+    font-weight: 700;
+    box-shadow: 0 1rem 1.2rem rgba(0, 0, 0, .1);
+    transition: all .2s;
+
+    &:hover {
+        background-color: transparent;
+        outline: 2px solid var(--color-bright-yellow);
+        color: var(--color-bright-yellow);
+    }
+}
