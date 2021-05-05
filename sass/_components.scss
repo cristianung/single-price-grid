@@ -60,12 +60,6 @@
 .paragraph {
     color: var(--color-grayish-blue);
     line-height: 2.4rem;
-
-    &-about {
-        color: var(--color-light-gray);
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
 }
 
 .price {
@@ -84,6 +78,16 @@
 
 .heading-quaternary {
     font-weight: 400;
+}
+
+.list {
+
+    &__item {
+        list-style: none;
+        color: var(--color-light-gray);
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
 }
 
 /* || Button */

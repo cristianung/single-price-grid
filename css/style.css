@@ -73,10 +73,6 @@ body {
 .paragraph {
   color: var(--color-grayish-blue);
   line-height: 2.4rem; }
-  .paragraph-about {
-    color: var(--color-light-gray);
-    font-size: 1.4rem;
-    line-height: 2rem; }
 
 .price {
   font-size: 3.2rem;
@@ -91,6 +87,12 @@ body {
 
 .heading-quaternary {
   font-weight: 400; }
+
+.list__item {
+  list-style: none;
+  color: var(--color-light-gray);
+  font-size: 1.4rem;
+  line-height: 2rem; }
 
 /* || Button */
 .btn {
